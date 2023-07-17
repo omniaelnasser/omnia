@@ -177,13 +177,12 @@ tree.rooted = True
 Phylo.draw(tree)
 ########################################################################################################################
 # The Percentage of Chemical Constituent from a separate Function File
-# By Ahmed Mohamed Aziza
 import Chemical_Constituents as cc                      # Import the function file in the code
 file_input = './consensus_case_sequences.txt'           # Determine the relative Path of the desired file
 cc.chemical_constituents(file_input)                    # Call the Function and the Resulted output is generated
 ########################################################################################################################
 # The Dissimilar Regions in Sequences
-# by Ahmed Mohamed Aziza
+
 import dissimilar_regions as dsr                        # Import the function file
 file_input = './MSA_consensus_case_sequences.txt'       # Determine the relative Path of the desired file
 dsr.dissimilar_region(file_input)                       # Call the Function and the Resulted output is generateds
