@@ -5,8 +5,7 @@ def chemical_constituents(file):
         the output file is a file contain all 20 amino acids percentages in tab delimited text format
         :return:
 
-        creator : Ahmed Mohamed Aziza
-        Date : 21 Jun 2023
+    
     """
     try:                                                                    # Try is used to work only on files
         from Bio.SeqUtils.ProtParam import ProteinAnalysis                  # Import Protein analysis functions to do the analysis
